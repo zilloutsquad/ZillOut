@@ -1,0 +1,4 @@
+include ':home'
+include ':app:home'
+include ':app'
+rootProject.name = "Rentbaaz"

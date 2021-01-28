@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".OfferInfoActivity"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="28dp"
+        android:src="@drawable/ic_baseline_keyboard_backspace_black"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:onClick="onBack"
+        android:layout_marginTop="@dimen/dp_16"
+        android:layout_height="28dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:text="Buy 1 Get one free on all craft beers brewed in-house"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:layout_margin="20dp"
+        android:text="Terms &amp; Conditions"
+        android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textSize="12sp"
+            android:text="Our General Terms and Conditions shall apply to all our offers, deliveries and services. The following Terms and Conditions shall only apply to entrepreneurs according to Section 14 German Civil Code, legal entities under public law or an asset under public law (herein- after referred to as the „Customer“).
+
+Within a permanent business relationship, our General Terms and Conditions shall also apply to all our future offers, deliveries and performances relating to the Customer without requiring any further reference or agreement.
+
+Our GTC shall also apply if we effect delivery without reservation while being aware of conflicting or different general terms and conditions of the Customer.
+
+Our General Terms and Conditions shall apply exclusively. We shall not accept different general terms and conditions of the Customer unless they have been confirmed by us in writing."/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="REDEEM"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:onClick="confirmBooking"
+        android:textStyle="bold"
+        android:background="@drawable/bg_redeem_orange"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="24dp"/>
+
+
+</FrameLayout>

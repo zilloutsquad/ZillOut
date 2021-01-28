@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "141910281072",
+    "project_id": "zillout-1611836129456",
+    "storage_bucket": "zillout-1611836129456.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:141910281072:android:6c0e925e50230329ab9db5",
+        "android_client_info": {
+          "package_name": "com.idea.rentbaaz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "141910281072-244vffrurvf7ip1g544pd5p5mghq9u9b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.idea.rentbaaz",
+            "certificate_hash": "6aec96ff1d3280bf7a77a4862f1ce10b88021471"
+          }
+        },
+        {
+          "client_id": "141910281072-u5kbahlsnc5a535dc3f8ur3ukqau01t8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBT07zqlALiMbrp2shhrxjs78mZTrGTbIc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "141910281072-u5kbahlsnc5a535dc3f8ur3ukqau01t8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

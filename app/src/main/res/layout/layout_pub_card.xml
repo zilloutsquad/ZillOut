@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="pub"
+            type="com.idea.rentbaaz.PubItem" />
+    </data>
+
+    <androidx.cardview.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="@dimen/dp_30"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/dp_10"
+        android:layout_marginStart="@dimen/dp_1"
+        android:onClick="@{() -> pub.onClick.invoke()}"
+        android:layout_marginEnd="@dimen/dp_1"
+        app:cardElevation="4dp"
+        android:layout_marginBottom="@dimen/dp_30">
+
+        <LinearLayout
+            android:layout_width="@dimen/dp_388"
+            android:layout_height="360dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_pub_image"
+                android:layout_width="@dimen/dp_388"
+                android:layout_height="144dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/p2" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_240"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_pub_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:paddingStart="@dimen/dp_16"
+                    android:paddingLeft="@dimen/dp_16"
+                    android:textColor="@color/black"
+                    android:text="The Druid Garden"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_below="@id/tv_pub_name"
+                    android:id="@+id/tv_pub_tag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:paddingStart="@dimen/dp_16"
+                    android:paddingLeft="@dimen/dp_16"
+                    android:text="Gin and Tonic"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:id="@+id/distance_icon"
+                    android:layout_width="@dimen/dp_16"
+                    android:layout_height="@dimen/dp_16"
+                    android:layout_below="@id/tv_pub_tag"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginStart="@dimen/dp_16"
+                    android:layout_marginLeft="@dimen/dp_16"
+                    android:src="@drawable/ic_baseline_location_on_24"
+                    />
+
+                <TextView
+                    android:layout_below="@id/tv_pub_tag"
+                    android:id="@+id/tv_pub_distance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginStart="@dimen/dp_2"
+                    android:layout_toRightOf="@id/distance_icon"
+                    android:text="Distance"
+                    android:textSize="12sp"
+                    android:layout_marginLeft="@dimen/dp_2" />
+
+                <ImageView
+                    android:id="@+id/location_icon"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_below="@id/tv_pub_tag"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@id/tv_pub_distance"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="4dp"
+                    android:src="@drawable/ic_baseline_brightness_1_24"/>
+
+                <TextView
+                    android:layout_below="@id/tv_pub_tag"
+                    android:id="@+id/tv_pub_location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginStart="@dimen/dp_2"
+                    android:layout_toRightOf="@id/location_icon"
+                    android:text="Location"
+                    android:textSize="12sp"
+                    android:layout_marginLeft="@dimen/dp_2" />
+
+
+                <include
+                    android:id="@+id/pub_event"
+                    android:layout_below="@id/tv_pub_distance"
+                    layout="@layout/layout_event"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_62"
+                    android:layout_marginTop="@dimen/dp_8"/>
+
+                <include
+                    android:layout_below="@id/pub_event"
+                    layout="@layout/layout_offers"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_66" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</layout>

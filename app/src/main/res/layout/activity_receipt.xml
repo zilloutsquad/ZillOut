@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <include
+        android:id="@+id/receipt"
+        layout="@layout/waste"/>
+
+<!--    <ImageView-->
+<!--        android:id="@+id/close"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_marginTop="@dimen/dp_48"-->
+<!--        android:onClick="close"-->
+<!--        android:layout_marginLeft="40dp"-->
+<!--        android:src="@drawable/ic_baseline_close_24"-->
+<!--        android:layout_height="wrap_content"/>-->
+<!--<androidx.cardview.widget.CardView-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_marginLeft="40dp"-->
+<!--    android:layout_marginTop="40dp"-->
+<!--    android:layout_marginRight="40dp"-->
+<!--    android:paddingTop="100dp"-->
+<!--    android:paddingBottom="40dp"-->
+<!--    android:layout_marginBottom="100dp"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto">-->
+<!--<RelativeLayout-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".ReceiptActivity">-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/congo"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Congratulations"-->
+<!--        android:textSize="24sp"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="@dimen/dp_48"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textStyle="bold"/>-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/image"-->
+<!--        android:layout_width="130dp"-->
+<!--        android:layout_height="130dp"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:layout_below="@id/congo"-->
+<!--        android:src="@drawable/r1"/>-->
+<!--    <TextView-->
+<!--        android:id="@+id/date"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Booking Date"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:layout_marginLeft="@dimen/dp_22"-->
+<!--        android:textSize="14sp"-->
+<!--        android:layout_below="@id/image"-->
+<!--        android:layout_marginTop="60dp"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/time"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Bookig Time"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:layout_marginLeft="@dimen/dp_22"-->
+<!--        android:layout_marginBottom="@dimen/dp_20"-->
+<!--        android:textSize="14sp"-->
+<!--        android:layout_below="@id/date"-->
+<!--        android:layout_marginTop="20dp"/>-->
+<!--</RelativeLayout>-->
+<!--</androidx.cardview.widget.CardView>-->
+<!--    <TextView-->
+<!--        android:id="@+id/ctaText"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="BOOKED A TABLE"-->
+<!--        android:textSize="18sp"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:gravity="center"-->
+<!--        android:background="@drawable/bg_redeem_green"-->
+<!--        android:layout_marginLeft="40dp"-->
+<!--        android:layout_marginRight="40dp"-->
+<!--        android:layout_marginBottom="24dp"/>-->
+</LinearLayout>
+</layout>
