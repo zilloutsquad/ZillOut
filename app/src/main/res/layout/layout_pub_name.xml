@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_banner_white"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/tv_pub_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Church Street"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_pub_name"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_marginBottom="@dimen/dp_10"
+            android:textColor="@color/black"
+            android:text="Kormangala"
+            android:textSize="12sp" />
+
+
+    </RelativeLayout>
+</layout>
